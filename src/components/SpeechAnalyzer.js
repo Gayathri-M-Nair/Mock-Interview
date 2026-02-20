@@ -55,7 +55,7 @@ const SpeechAnalyzer = ({ history, setHistory }) => {
     setAnalysis(null);
 
     try {
-      const response = await fetch("http://localhost:5000/analyze", {
+      const response = await fetch("https://mock-interview-54xa.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

@@ -4,11 +4,10 @@
 
 ## Basic Details
 
-**Team Name:** [Your Team Name]
+**Team Name:** Broc9de
 
 ### Team Members
-- Gayathri M Nair – [Your College Name]
-- [Member 2 Name] – [College]
+- Gayathri M Nair – Adi Shankara Institute of Engineering and Technology
 
 ---
 

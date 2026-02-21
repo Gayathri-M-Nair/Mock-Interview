@@ -130,15 +130,15 @@ node server.js
 ### Screenshots
 
 #### 1️⃣ Interview Interface
-![Screenshot1][(Add-screenshot-link-here)](https://drive.google.com/file/d/1rmjNO7ne2-XRJrnToQ37YqAQNeK0IU1W/view?usp=drive_link)
+![Screenshot1][(screenshot-link)](https://drive.google.com/file/d/1rmjNO7ne2-XRJrnToQ37YqAQNeK0IU1W/view?usp=drive_link)
 Shows question box, video preview, and mic/camera controls.
 
 #### 2️⃣ AI Feedback Card
-![Screenshot2][(Add-screenshot-link-here)](https://drive.google.com/file/d/1BM0q4Hc4gOd3_flVII8eX1bgAEV_yTmr/view?usp=drive_link)
+![Screenshot2][(screenshot-link)](https://drive.google.com/file/d/1BM0q4Hc4gOd3_flVII8eX1bgAEV_yTmr/view?usp=drive_link)
 Displays confidence score, tone detection, and improvement suggestions.
 
 #### 3️⃣ Dashboard
-![Screenshot3][(Add-screenshot-link-here)](https://drive.google.com/file/d/1rE4SF41pDxT6P2994mbJPIMuLB3sUo8U/view?usp=drive_link)
+![Screenshot3][(screenshot-link)](https://drive.google.com/file/d/1rE4SF41pDxT6P2994mbJPIMuLB3sUo8U/view?usp=drive_link)
 Shows score history and performance trend graph.
 
 ---
@@ -205,7 +205,7 @@ https://mock-interview-54xa.onrender.com
 ## Project Demo
 
 ### Demo Video
-[[Add your YouTube / Drive link here]](https://drive.google.com/file/d/1F5mKlkfoMKesSgi-8TZsSpSdtDXf9jVB/view?usp=drive_link)
+[[ Drive link ]](https://drive.google.com/file/d/1F5mKlkfoMKesSgi-8TZsSpSdtDXf9jVB/view?usp=drive_link)
 
 This video demonstrates:
 - Interview flow

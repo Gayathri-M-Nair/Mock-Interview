@@ -1,233 +1,252 @@
-AI Mock Interview Coach 🎯
-Basic Details
+# AI Mock Interview Coach 🎯
 
-Team Name: Broc9de
+---
 
-Team Members:
+## Basic Details
 
-Gayathri M Nair – [Your College]
+**Team Name:** [Your Team Name]
 
-Hosted Project Link:
-Frontend: https://mock-interview-alpha-wine.vercel.app
+### Team Members
+- Gayathri M Nair – [Your College Name]
+- [Member 2 Name] – [College]
 
-Backend API: https://mock-interview-54xa.onrender.com
+---
 
-Project Description
+## Hosted Project Link
 
-AI Mock Interview Coach is a web-based interview practice platform that simulates real interview scenarios.
-It asks structured questions, records user responses via microphone and optional video, analyzes speech clarity and confidence, and tracks performance over time.
+Frontend (Vercel): https://mock-interview-alpha-wine.vercel.app  
+Backend (Render): https://mock-interview-54xa.onrender.com  
 
-The Problem Statement
+---
+
+## Project Description
+
+AI Mock Interview Coach is a web-based application that simulates real interview scenarios.  
+It asks dynamic interview questions, records user responses using speech-to-text, analyzes confidence and tone, and provides structured feedback with a performance score.
+
+---
+
+## The Problem Statement
 
 Many students struggle with interview preparation due to:
+- Lack of realistic practice environments  
+- No structured feedback on speaking confidence  
+- Difficulty tracking improvement over time  
 
-Lack of real-time feedback
+---
 
-No structured mock practice
+## The Solution
 
-No way to measure improvement
+Our system:
+- Asks curated interview questions
+- Converts speech to text in real-time
+- Analyzes confidence using custom scoring logic
+- Provides structured AI feedback
+- Stores history and shows performance trends on a dashboard
 
-Nervousness during actual interviews
+---
 
-Traditional preparation methods do not simulate real interview pressure or provide objective performance insights.
+## Technical Details
 
-The Solution
+### Technologies Used
 
-AI Mock Interview Coach creates a simulated interview environment where:
+**Frontend**
+- JavaScript
+- React (Create React App)
+- Recharts (for performance graphs)
+- Material Icons
 
-The system asks real interview questions
+**Backend**
+- Node.js
+- Express.js
+- Custom confidence scoring logic
+- Render deployment
 
-User responds via voice
+**Tools**
+- VS Code
+- Git & GitHub
+- Vercel (Frontend Deployment)
+- Render (Backend Deployment)
 
-Speech is converted to text
+---
 
-Backend analyzes clarity, repetition, filler words, and confidence
+## Features
 
-A score and structured feedback are generated
+- 🎤 Speech-to-text interview responses
+- 📹 Optional camera preview mode
+- 🤖 AI-based confidence scoring
+- 📊 Dashboard with score history graph
+- 🧑 Profile section
+- 🔁 Multiple interview questions
+- ☁️ Cloud deployment (Frontend + Backend)
 
-Performance history is stored and visualized
+---
 
-This helps users track improvement and practice confidently.
+## Implementation
 
-Technical Details
-Technologies / Components Used
-
-For Software
-
-Languages used: JavaScript
-
-Frameworks used: React (Frontend), Express.js (Backend)
-
-Libraries used:
-
-recharts (performance graph)
-
-cors
-
-dotenv
-
-Tools used:
-
-VS Code
-
-Git & GitHub
-
-Render (Backend Hosting)
-
-Vercel (Frontend Hosting)
-
-Features
-
-🎤 Real-time speech recognition (browser-based)
-
-📹 Optional video preview mode
-
-🤖 AI-style feedback generation
-
-📊 Confidence score calculation
-
-📈 Performance dashboard with history graph
-
-❓ Structured interview question flow
-
-🧑 Profile summary page
-
-Implementation
-Installation
+### Installation
 
 Clone the repository:
 
-git clone https://github.com/Gayathri-M-Nair/Mock-Interview.git
-cd Mock-Interview
-Install Frontend
+```bash
+git clone https://github.com/yourusername/mock-interview.git
+cd mock-interview
+```
+
+### Install Dependencies
+
+Frontend:
+
+```bash
 npm install
-Install Backend
+```
+
+Backend:
+
+```bash
 cd backend
 npm install
-Run Locally
+```
 
-Start Backend
+---
 
-cd backend
-node server.js
+### Run the Application
 
-Start Frontend
+Frontend:
 
+```bash
 npm start
-Project Documentation
-Screenshots
+```
 
-Add at least 3 screenshots here:
+Backend:
 
-![Interview Page]https://drive.google.com/file/d/1rmjNO7ne2-XRJrnToQ37YqAQNeK0IU1W/view?usp=drive_link
-AI interview interface with question box and video preview
+```bash
+node server.js
+```
 
-![AI Feedback]https://drive.google.com/file/d/1BM0q4Hc4gOd3_flVII8eX1bgAEV_yTmr/view?usp=drive_link
-Confidence score and structured feedback
+---
 
-![Dashboard]https://drive.google.com/file/d/1rE4SF41pDxT6P2994mbJPIMuLB3sUo8U/view?usp=drive_link)
-Performance history graph and previous interview scores
-System Architecture
+## Project Documentation
 
-Frontend (React)
-⬇
-Speech Recognition API (Browser)
-⬇
-Transcript sent to Backend (Express API)
-⬇
-Confidence Score Calculation
-⬇
-Feedback Response
-⬇
-Dashboard Storage & Graph Visualization
+### Screenshots
 
-Application Workflow
+#### 1️⃣ Interview Interface
+![Screenshot1][(Add-screenshot-link-here)](https://drive.google.com/file/d/1rmjNO7ne2-XRJrnToQ37YqAQNeK0IU1W/view?usp=drive_link)
+Shows question box, video preview, and mic/camera controls.
 
-User opens interview page
+#### 2️⃣ AI Feedback Card
+![Screenshot2][(Add-screenshot-link-here)](https://drive.google.com/file/d/1BM0q4Hc4gOd3_flVII8eX1bgAEV_yTmr/view?usp=drive_link)
+Displays confidence score, tone detection, and improvement suggestions.
 
-Question is displayed
+#### 3️⃣ Dashboard
+![Screenshot3][(Add-screenshot-link-here)](https://drive.google.com/file/d/1rE4SF41pDxT6P2994mbJPIMuLB3sUo8U/view?usp=drive_link)
+Shows score history and performance trend graph.
 
-User records response
+---
 
-Transcript is generated
+## System Architecture
 
-Backend analyzes response
+Frontend (React)  
+↓  
+Speech Recognition (Browser API)  
+↓  
+Backend (Express Server)  
+↓  
+Confidence Scoring Logic  
+↓  
+Response sent back to frontend  
+↓  
+Dashboard & History Update  
 
-Confidence score and feedback shown
+---
 
-Result stored in history
+## Application Workflow
 
-Dashboard updates performance graph
+1. User selects interview question  
+2. User records response  
+3. Speech converted to text  
+4. Transcript sent to backend  
+5. Backend calculates confidence score  
+6. Feedback displayed  
+7. Score stored in history  
+8. Dashboard graph updated  
 
-API Documentation
-Base URL
+---
+
+## API Documentation
+
+### Base URL
+
+```
 https://mock-interview-54xa.onrender.com
-Endpoint
-POST /analyze
+```
 
-Description: Analyzes interview transcript and returns confidence feedback.
+### POST /analyze
 
-Request Body:
+**Description:** Analyzes interview transcript and returns feedback.
 
+**Request Body:**
+
+```json
 {
   "transcript": "Tell me about yourself..."
 }
+```
 
-Response:
+**Response:**
 
+```json
 {
-  "analysis": "Confidence Score: 82/100..."
+  "analysis": "Confidence Score: 85/100 ..."
 }
-Project Demo
-Live Demo
+```
 
-Frontend: https://mock-interview-alpha-wine.vercel.app
+---
 
-Demo Video
+## Project Demo
 
-https://drive.google.com/file/d/1F5mKlkfoMKesSgi-8TZsSpSdtDXf9jVB/view?usp=drive_link
+### Demo Video
+[[Add your YouTube / Drive link here]](https://drive.google.com/file/d/1F5mKlkfoMKesSgi-8TZsSpSdtDXf9jVB/view?usp=drive_link)
 
-The demo shows:
+This video demonstrates:
+- Interview flow
+- Speech-to-text functionality
+- AI scoring system
+- Dashboard visualization
 
-Question flow
+---
 
-Voice recording
+## AI Tools Used (For Transparency)
 
-AI feedback generation
-
-Dashboard performance tracking
-
-AI Tools Used (Transparency Section)
-
-Tool Used: ChatGPT
-
+Tool Used: ChatGPT  
 Purpose:
+- UI refinement suggestions
+- Deployment troubleshooting
+- Documentation structuring
 
-Debugging assistance
+Human Contributions:
+- Architecture design
+- Backend scoring logic
+- React component structure
+- Deployment configuration
+- UI styling & interaction logic
 
-API structuring
+---
 
-UI logic refinement
+## Team Contributions
 
-Documentation formatting
+**Gayathri M Nair**
+- Frontend Development
+- Backend Integration
+- AI Scoring Logic
+- Deployment (Vercel + Render)
+- Documentation
+- UI Enhancements
+- Testing & Debugging
+- Presentation & Demo
 
-Approximate AI-assisted code: ~25–30%
-Core architecture, logic, integration, deployment: Implemented manually.
+---
 
-Team Contributions
-
-Gayathri M Nair
-
-Frontend development (React UI)
-
-Speech recognition integration
-
-Backend API implementation
-
-Deployment (Render + Vercel)
-
-Documentation
-
-License
+## License
 
 This project is licensed under the MIT License.
